@@ -98,7 +98,7 @@
               this.$message.success("注册成功")
               console.log(resp)
            }else {
-              this.$message.error("注册失败")
+              this.$message.error("该学号已被注册")
            }   
           })
       },

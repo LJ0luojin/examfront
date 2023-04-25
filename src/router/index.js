@@ -12,6 +12,12 @@ const routes = [
         path:'/register',
         name:'register',
         component:()=>import('../pages/Regist.vue')
+    },
+    {
+        path:'/kglogin',
+        name:'kglogin',
+        component:()=>import('../pages/kgLogin.vue')
+
     }
 ]
 
